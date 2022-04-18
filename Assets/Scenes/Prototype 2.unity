@@ -646,24 +646,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
---- !u!1 &1180137151239383 stripped
+--- !u!1 &1873333736
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 5400747203597509051, guid: 884d9b89f73d2e64e9add3313316faf6,
-    type: 3}
-  m_PrefabInstance: {fileID: 5401926619192538476}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1180137151239384
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873333738}
+  - component: {fileID: 1873333737}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1873333737
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180137151239383}
+  m_GameObject: {fileID: 1873333736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6165189147ba5142b3380244c256197, type: 3}
+  m_Script: {fileID: 11500000, guid: 7914d9ad763dd414f9bab6450ef31be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 3549049337356890367, guid: ba86ce21b35836d40a4e48fa255fc226, type: 3}
+  - {fileID: 6998868019234385891, guid: 292353ec4c3c38b468c6c85921d97a48, type: 3}
+  - {fileID: 2041477436537027172, guid: 49b86520505b83a489508f7966bdefff, type: 3}
+--- !u!4 &1873333738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873333736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1589518, y: -7.0717363, z: -4.5557775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2041477437463340188
 PrefabInstance:
   m_ObjectHideFlags: 0

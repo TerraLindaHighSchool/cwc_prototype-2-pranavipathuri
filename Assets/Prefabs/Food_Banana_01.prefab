@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5402312305678639395}
   - component: {fileID: 5372616013479776673}
   - component: {fileID: 5378851288280110943}
+  - component: {fileID: 1180137151239384}
+  - component: {fileID: 1180137151239388}
   m_Layer: 0
   m_Name: Food_Banana_01
   m_TagString: Untagged
@@ -25,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5400747203597509051}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 6}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
@@ -79,3 +81,28 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1180137151239384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400747203597509051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6165189147ba5142b3380244c256197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1180137151239388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400747203597509051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69ceaf994c690d4cb9bc797889fb428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 25
