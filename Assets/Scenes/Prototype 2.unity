@@ -446,7 +446,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -510,6 +510,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1422933435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2041477436537027172, guid: 49b86520505b83a489508f7966bdefff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2041477437463340188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1422933440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422933435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60084e759e33a4d8dbdc162114bb4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,11 +852,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Cow_White
       objectReference: {fileID: 0}
-    - target: {fileID: 3549049337522892227, guid: ba86ce21b35836d40a4e48fa255fc226,
-        type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba86ce21b35836d40a4e48fa255fc226, type: 3}
 --- !u!1001 &5401926619192538476
@@ -981,6 +994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8288330795260050523, guid: 292353ec4c3c38b468c6c85921d97a48,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 292353ec4c3c38b468c6c85921d97a48, type: 3}

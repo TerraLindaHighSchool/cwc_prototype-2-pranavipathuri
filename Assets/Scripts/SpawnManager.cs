@@ -9,7 +9,9 @@ public class SpawnManager : MonoBehaviour
     private float spawnInterval = 1.5f;
     private float spawnPosZ = 20;
     private float spawnRangeX = 10f;
-    
+
+    // Spawns Animals
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class SpawnManager : MonoBehaviour
     {
        
     }
+
 
     void SpawnRandomAnimal()
     {
